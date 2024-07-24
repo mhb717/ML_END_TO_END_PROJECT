@@ -14,7 +14,8 @@
 Use this command add your env name
 
  
-   ``` python -m venv envName ```
+   ``` python -m venv envName ``` or 
+   ``` conda create -p venv python==3.7 -y ```
 
 
 Microsoft dont allow you to activate your env so 
@@ -26,4 +27,5 @@ you've to run these bellow commands
 
 Activate your Env and start installing all your lib
 
-```  envName\Scripts\Activate ```
+```  envName\Scripts\Activate ``` or 
+``` conda activate venv/  ```
